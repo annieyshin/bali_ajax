@@ -31,7 +31,7 @@ To set up:
 1. Clone the repo
 1. Run Bundle Install:
 ```
-bundle install 
+bundle install
 ```
 1. From the root of the repo run the following command to set up the database for development and testing:
 ```
@@ -50,5 +50,3 @@ rails s
 localhost:3000
 ```
 <hr />
-
-* ...
