@@ -11,6 +11,8 @@ To set up:
 
 * System dependencies
 
+  - Uses bcrypt and materialize gems
+
 * Configuration
 
 * Database creation
@@ -27,17 +29,9 @@ To set up:
 ## Setup/Contribution Requirements
 
 1. Clone the repo
-1. Install the bcrypt gem
-```
-brew install bcrypt
-```
-1. Install the materialize gem
-```
-brew install materialize
-```
 1. Run Bundle Install:
 ```
-bundle install
+bundle install 
 ```
 1. From the root of the repo run the following command to set up the database for development and testing:
 ```
