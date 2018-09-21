@@ -7,7 +7,6 @@ There's a seed file. Set up your own admin. If you have questions, I'll be in Ba
 
 To set up:
 
-* `rake db:setup`
 * Ruby version 2.5.0 or above
 
 * System dependencies
@@ -40,13 +39,9 @@ brew install materialize
 ```
 bundle install
 ```
-1. From the root of the repo run the following commands:
+1. From the root of the repo run the following command to set up the database for development and testing:
 ```
-rake db:create
-```
-1. Populate the database
-```
-rake db:migrate
+rake db:setup
 ```
 1. Seed the database
 ```
