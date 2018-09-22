@@ -1,5 +1,7 @@
 <h1>Shopping Cart</h1>
 
+<p><%= link_to "Return to products", products_path, class: "btn btn-warning" %></p>
+
 <% if @order_items.any? %>
   <% @order_items.each do |item| %>
     <p><%= item.product.name %> | <%= link_to "Delete", order_item_path(item), :data => {:confirm => "You sure?", :method => "delete"} %></p>
