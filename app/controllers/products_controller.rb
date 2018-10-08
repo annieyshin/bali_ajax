@@ -7,11 +7,11 @@ class ProductsController < ApplicationController
   end
 
   def show
-    @products = Product.all
+    @product = Product.find(params[:id])
     respond_to do |format|
       format.html { redirect_to products_path }
       format.js
-    end  
+    end
   end
 
   def new
