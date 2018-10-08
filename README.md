@@ -3,7 +3,7 @@
 
 E-commerce site.
 
-There's a seed file. Set up your own admin. If you have questions, I'll be in Bali with no email. Ask someone else.
+As they say, "Hell is other people's code", in this assignment a developer picks up and runs away, leaving behind a mostly functioning application. My job was to implement AJAX into this site to update portions of pages without requiring a hard reload.
 
 To set up:
 
