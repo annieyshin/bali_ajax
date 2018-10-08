@@ -17,9 +17,9 @@
         <span class="waves-effect waves-light btn"><%= f.submit "Add to cart" %></span>
       <% end %>
     </div>
-      <ol id="descriptions">
-        <%= render @products %>
-      </ol>
+      <p id="descriptions">
+        <h4><%= link_to "Description", product_path(product), remote: true %></h4>
+      </p>
   <% end %>
 </div>
 </div>
