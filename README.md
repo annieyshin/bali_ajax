@@ -10,7 +10,8 @@ Changes include:
 1. Update order items controller file with AJAX remote redirect to cart path for destroying items in the cart that are deleted.
 1. Update products page to include AJAX to hide and show item description.
 1. Include ability to update cart total amount with AJAX when deleting items from cart.
-1. 
+1. Add Js files per AJAX and object controller linked method, i.e. destroy.js.erb for order items.
+
 
 To set up:
 
