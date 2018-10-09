@@ -2,10 +2,6 @@
 <hr>
 
 <div class="row">
-  <p><%= link_to "Add a new product", new_product_path, id: "ajax_new_product", class: "btn btn-primary", remote: true %></p>
-<hr>
-</div>
-<div class="row">
   <div class="section">
   <% @products.each do |product| %>
     <div class="col s4">
