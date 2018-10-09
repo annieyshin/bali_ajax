@@ -5,6 +5,13 @@ E-commerce site.
 
 As they say, "Hell is other people's code", in this assignment a developer picks up and runs away, leaving behind a mostly functioning application. My job was to implement AJAX into this site to update portions of pages without requiring a hard reload.
 
+Changes include:
+
+1. Update order items controller file with AJAX remote redirect to cart path for destroying items in the cart that are deleted.
+1. Update products page to include AJAX to hide and show item description.
+1. Include ability to update cart total amount with AJAX when deleting items from cart.
+1. 
+
 To set up:
 
 * Ruby version 2.5.0 or above
